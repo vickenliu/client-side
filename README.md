@@ -20,7 +20,7 @@ The tools in this setup:
 
 ## Release 0
 
-- **Clone** the repo to your personal account.
+- **Clone** the repo to your personal account. **The purpose is to set up a gh-pages site**, so the hihi-based repo won't work
 - Read the `package.json`, in particular the scripts. See if you can figure out what each line does (even roughly) and guess how they are related.
 - Try running them to check your guesses. You should be able to use the npm scripts to auto-set up a github page for you.
 
@@ -28,6 +28,8 @@ The tools in this setup:
 
 Find an API you you or that is easy to use (don't use one that needs authentication/ keys for this one - no twitter)
 You might like to check out - the [International Space Station API](http://wheretheiss.at/w/developer)
+
+![NZ from the ISS](nz_from_iss.png)
 
 - replace the existing api get request to get something back from your API and `console.log` it
 - Not things returned from the API rendering on your page using handlebars 
