@@ -20,7 +20,7 @@ The tools in this setup:
 
 ## Release 0
 
-- **Clone** the repo to your personal account. **The purpose is to set up a gh-pages site**, so the hihi-based repo won't work
+- **FORK** the repo to your personal account. **The purpose is to set up a gh-pages site**, so the hihi-based repo won't work
 - Read the `package.json`, in particular the scripts. See if you can figure out what each line does (even roughly) and guess how they are related.
 - Check your git remotes, then try running the scripts to check your guesses about what they do. You should be able to use the npm scripts to auto-set up a github page for you.
 
