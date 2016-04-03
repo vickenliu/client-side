@@ -51,6 +51,10 @@ You might like to check out - the [International Space Station API](http://where
 
 ## Release 3
 
+- Add a listener to a button on the page, which kicks off a request, then renders the results using a template.
+
+## Release 4
+
 This setup is something I just pulled together because I like handlebars.  Go and look for some other tools and potential setups. 
 
 Go inquire about different tools: 
