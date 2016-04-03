@@ -1,1 +1,10 @@
-<h1>Hello {{name}}!</h1>
+<h1>Hello cats!</h1>
+
+{{#each cats}}
+<ul>
+  <li>{{this.name}}</li>
+  <li><a href="#" class='showCat'><img src="{{this.image}}" data-id={{this.id}}></a></li>
+  <li>{{this.life_story}}</li>
+  <li>{{this.commit}}</li>
+</ul>
+ {{/each}}
