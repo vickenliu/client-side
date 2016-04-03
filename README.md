@@ -22,9 +22,19 @@ The tools in this setup:
 
 - **Clone** the repo to your personal account. **The purpose is to set up a gh-pages site**, so the hihi-based repo won't work
 - Read the `package.json`, in particular the scripts. See if you can figure out what each line does (even roughly) and guess how they are related.
-- Try running them to check your guesses. You should be able to use the npm scripts to auto-set up a github page for you.
+- Check your git remotes, then try running the scripts to check your guesses about what they do. You should be able to use the npm scripts to auto-set up a github page for you.
 
+**NOTE** - gh-pages will act on the remote you have set up at `origin` ... so be careful.
+
+These commands might be useful in terminal: 
+```bash
+git remote -v
+git remote --help
+git remote add --help
+git remote remove --help
+```
 ## Release 1
+
 
 Find an API you you or that is easy to use (don't use one that needs authentication/ keys for this one - no twitter)
 You might like to check out - the [International Space Station API](http://wheretheiss.at/w/developer)
