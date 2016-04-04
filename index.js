@@ -6,16 +6,6 @@ var show = require('./views/show.hbs')
 var $ = require('jquery')
 
 
-function showAll(url){
-    xhr.get(url, function(err, data) {
-      if (err) console.log(err) // do something
-      var name = 'json',
-          returnData = JSON.parse(data.body)
-      $('body').html( example( {cats: returnData.cats} ) );
-    })
-
-}
-
 $(document).ready(function(){
   showAll('http://localhost:3000/cats');
   showSingle();
@@ -40,7 +30,15 @@ function showSingle(){
   })
 
 }
+function showAll(url){
+    xhr.get(url, function(err, data) {
+      if (err) console.log(err) // do something
+      var name = 'json',
+          returnData = JSON.parse(data.body)
+      $('body').html( example( {cats: returnData.cats} ) );
+    })
 
+}
 
 
 
