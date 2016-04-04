@@ -1,5 +1,8 @@
 <h1>Hello cats!</h1>
-
+<form action='http://localhost:3000/cats' method='POST'>
+  <input type='text' name='name' />
+  <input type='submit' value='submit'>
+</form>
 {{#each cats}}
 <ul>
   <li>{{this.name}}</li>
